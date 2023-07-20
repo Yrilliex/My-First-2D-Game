@@ -1,0 +1,1106 @@
+fileFormatVersion: 2
+guid: d954d7be273bf9c49bde390dfc8194fc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Idle_Left
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 444
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e7d0bdefac12a419654ed5798c5a60
+      internalID: -770115488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot_Left
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 444
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e240a0b352c2548bfcae45e4d35d4a
+      internalID: 1778991683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Walk_Right00
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 444
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fc596917515884b89e1a09e2747c35
+      internalID: -421064703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Walk_Right01
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 444
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f61b5c005c4cb41a8dfe697262a9df
+      internalID: -852927014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Idle_Right
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 444
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f717c89b7fca594fa946c8856d0fde4
+      internalID: -894504528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot_Right
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 444
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cffe3d003fe414390886a9faf286af
+      internalID: 558340444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Walk_Left00
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 444
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41da2da4832d3ff408b16062fcabee1b
+      internalID: 1529489363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Walk_Left01
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 444
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5667a4c0f0f8743bee9baafd3ee7fc
+      internalID: -1175562469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySnail_Walk00
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 372
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e453523852e53d447bb4e16f168645aa
+      internalID: 98165729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySnail_Walk01
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 372
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734e97e727b058d47b7600a28e1dff41
+      internalID: 1671767874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Hook01
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 284
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb88541b4e0b4341a052c80b3d4ac33
+      internalID: -240215918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Hook02
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 284
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc0a0dfe88ff304aa91fe2f23a9a708
+      internalID: -503286964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Spear00
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 284
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b09962a3ce8ed4ca7348ab12db25a4
+      internalID: 906018300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Spear01
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 284
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c124a9db27fa1c84aa8f5b88f9329e29
+      internalID: -1731006557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Bullet00
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 286
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2c59f8b7c9ed7438aa5c47c1dbfea0
+      internalID: 762983035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Bullet02
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 284
+        width: 3
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9f0a86ef16a7d40bc060a756f84b1f
+      internalID: -1198059625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Bullet01
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 286
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca23ad94245970444a3dd160c905e49c
+      internalID: 884389830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Banana
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ea97cea65dbd64a9a3e710905d6335
+      internalID: -60189201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Bullet04
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 253
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8baface4535e94b883e47812bbd35a
+      internalID: -524119473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyShot_Bullet00
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 244
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3adb43272f324744968c74c6cddf48b
+      internalID: 291564876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyShot_Bullet01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 244
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8a9292efd08e24e8af37ade8797069
+      internalID: 817162338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_GameTitle_Title
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 240
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31deaf4355a2ddb43803c743e0c73af3
+      internalID: 1035551851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Bullet03
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 284
+        width: 3
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc929ac9305f74e4dbd56c97ee04f116
+      internalID: 535831544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Death00
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 444
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66874e02469838f48b7a9bfac88c39b2
+      internalID: -880304194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyCrab_Walk00
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe20724797fa564893a759da6265d65
+      internalID: -992567468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyCrab_Walk01
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624df2bf984bc744787ada7c91a420ae
+      internalID: -1358421739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyOwl_Walk00
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59debfebe11ccf747ac91d4f3e293ab4
+      internalID: -1830397065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyOwl_Walk01
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e08a71743abd14f9df130bbd180742
+      internalID: -1334935306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBird_Fly00
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ff4e9c81676474d8063cd5cdd9b90f
+      internalID: 1363663542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBird_Fly01
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 337
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b9610a893d2fb44bfc309c2f8eb156
+      internalID: -535479456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySnail_Down00
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 372
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289bb3395c2664149b0df91a14317baf
+      internalID: -1843065181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySnail_Down01
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 372
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7fd937ee528b04d943db2beabc79cc
+      internalID: -1142438663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySnail_Up00
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 374
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948b20ab0283dda42988c41d4aa04d01
+      internalID: 800513795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySnail_Up01
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 374
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab99a327737a4ed489a3763e2242f118
+      internalID: 1007469671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PangCapcom_PlayerEnemiesMisc_143: 833082032
+      PangCapcom_PlayerEnemiesMisc_217: 877475010
+      PangCapcom_PlayerEnemiesMisc_92: 1694872778
+      PangCapcom_PlayerEnemiesMisc_142: 1782639893
+      PangCapcom_PlayerEnemiesMisc_13: -1130985231
+      PangCapcom_PlayerEnemiesMisc_186: 1036255263
+      PangCapcom_PlayerEnemiesMisc_151: -1001806981
+      PangCapcom_PlayerEnemiesMisc_226: 879928485
+      PangCapcom_PlayerEnemiesMisc_214: -552133690
+      PangCapcom_PlayerEnemiesMisc_35: 1742740520
+      PangCapcom_PlayerEnemiesMisc_96: -1196251417
+      PangCapcom_PlayerEnemiesMisc_79: 573688988
+      PangCapcom_PlayerEnemiesMisc_70: -765837636
+      PangCapcom_PlayerEnemiesMisc_246: -1772051934
+      Shot_Hook01: -240215918
+      PangCapcom_PlayerEnemiesMisc_89: 563386762
+      PangCapcom_PlayerEnemiesMisc_198: -83679644
+      PangCapcom_PlayerEnemiesMisc_215: 691571720
+      EnemySnail_Up00: 800513795
+      PangCapcom_PlayerEnemiesMisc_231: -979952130
+      PangCapcom_PlayerEnemiesMisc_118: 922910455
+      Shot_Bullet00: 762983035
+      PangCapcom_PlayerEnemiesMisc_18: 1870689563
+      PangCapcom_PlayerEnemiesMisc_90: -1895949427
+      PangCapcom_PlayerEnemiesMisc_120: -1565895355
+      PangCapcom_PlayerEnemiesMisc_38: 134945598
+      Player_Idle_Right: -894504528
+      PangCapcom_PlayerEnemiesMisc_185: -261387248
+      PangCapcom_PlayerEnemiesMisc_36: -854003803
+      Player_Walk_Right00: -421064703
+      PangCapcom_PlayerEnemiesMisc_152: 1786813756
+      PangCapcom_PlayerEnemiesMisc_102: -1150659534
+      PangCapcom_PlayerEnemiesMisc_206: 615037237
+      PangCapcom_PlayerEnemiesMisc_177: 1632937811
+      EnemyShot_Bullet01: 817162338
+      PangCapcom_PlayerEnemiesMisc_87: 2014056677
+      EnemySnail_Down00: -1843065181
+      PangCapcom_PlayerEnemiesMisc_137: 903184886
+      PangCapcom_PlayerEnemiesMisc_202: 791200733
+      PangCapcom_PlayerEnemiesMisc_150: 1876992730
+      PangCapcom_PlayerEnemiesMisc_252: 963170620
+      PangCapcom_PlayerEnemiesMisc_237: 675345267
+      PangCapcom_PlayerEnemiesMisc_173: 304042504
+      Player_Shoot_Left: 1778991683
+      PangCapcom_PlayerEnemiesMisc_125: -1972377422
+      PangCapcom_PlayerEnemiesMisc_171: -1884424058
+      PangCapcom_PlayerEnemiesMisc_30: 1734963294
+      PangCapcom_PlayerEnemiesMisc_212: -1070220439
+      Shot_Spear01: -1731006557
+      PangCapcom_PlayerEnemiesMisc_145: 91534161
+      PangCapcom_PlayerEnemiesMisc_242: -2121992712
+      Shot_Bullet03: 535831544
+      PangCapcom_PlayerEnemiesMisc_189: 1860178704
+      UI_GameTitle_Title: 1035551851
+      PangCapcom_PlayerEnemiesMisc_101: 273651655
+      PangCapcom_PlayerEnemiesMisc_91: -303493738
+      PangCapcom_PlayerEnemiesMisc_248: 86594327
+      PangCapcom_PlayerEnemiesMisc_251: -259503985
+      PangCapcom_PlayerEnemiesMisc_71: 537168139
+      PangCapcom_PlayerEnemiesMisc_167: -509608058
+      PangCapcom_PlayerEnemiesMisc_213: -998164838
+      PangCapcom_PlayerEnemiesMisc_165: -358785643
+      PangCapcom_PlayerEnemiesMisc_172: 1623294643
+      PangCapcom_PlayerEnemiesMisc_54: -1575897298
+      Player_Walk_Right01: -852927014
+      PangCapcom_PlayerEnemiesMisc_203: -1453330179
+      Player_Walk_Left01: -1175562469
+      PangCapcom_PlayerEnemiesMisc_72: 1636338084
+      PangCapcom_PlayerEnemiesMisc_112: 1804242043
+      EnemySnail_Walk00: 98165729
+      PangCapcom_PlayerEnemiesMisc_44: 521013212
+      PangCapcom_PlayerEnemiesMisc_76: -468536576
+      PangCapcom_PlayerEnemiesMisc_174: 289382733
+      PangCapcom_PlayerEnemiesMisc_227: 954284329
+      PangCapcom_PlayerEnemiesMisc_157: -1164544690
+      PangCapcom_PlayerEnemiesMisc_104: 1523475383
+      PangCapcom_PlayerEnemiesMisc_199: 2136496828
+      Player_Death00: -880304194
+      PangCapcom_PlayerEnemiesMisc_11: 1185581321
+      PangCapcom_PlayerEnemiesMisc_45: -880314925
+      PangCapcom_PlayerEnemiesMisc_228: 1411225092
+      PangCapcom_PlayerEnemiesMisc_207: 1967128983
+      PangCapcom_PlayerEnemiesMisc_65: -304977928
+      PangCapcom_PlayerEnemiesMisc_56: 1542992199
+      PangCapcom_PlayerEnemiesMisc_225: -1716938853
+      PangCapcom_PlayerEnemiesMisc_22: -2120427890
+      PangCapcom_PlayerEnemiesMisc_52: 453394660
+      PangCapcom_PlayerEnemiesMisc_200: -504160943
+      PangCapcom_PlayerEnemiesMisc_244: -482932334
+      PangCapcom_PlayerEnemiesMisc_105: -1481029063
+      PangCapcom_PlayerEnemiesMisc_247: 1088565489
+      PangCapcom_PlayerEnemiesMisc_114: -1742664616
+      PangCapcom_PlayerEnemiesMisc_66: -1192169175
+      PangCapcom_PlayerEnemiesMisc_106: 964264902
+      PangCapcom_PlayerEnemiesMisc_201: -639025923
+      PangCapcom_PlayerEnemiesMisc_224: -596594131
+      Player_Idle_Left: -770115488
+      PangCapcom_PlayerEnemiesMisc_161: 1774754155
+      PangCapcom_PlayerEnemiesMisc_240: 170487554
+      PangCapcom_PlayerEnemiesMisc_99: 223888889
+      PangCapcom_PlayerEnemiesMisc_9: -716863598
+      PangCapcom_PlayerEnemiesMisc_127: -2073807323
+      PangCapcom_PlayerEnemiesMisc_39: -471363432
+      PangCapcom_PlayerEnemiesMisc_138: 625854558
+      PangCapcom_PlayerEnemiesMisc_73: -2130732962
+      PangCapcom_PlayerEnemiesMisc_27: -1546640889
+      PangCapcom_PlayerEnemiesMisc_183: -1178385725
+      EnemyBird_Fly00: 1363663542
+      PangCapcom_PlayerEnemiesMisc_245: 130330531
+      PangCapcom_PlayerEnemiesMisc_48: -2142997105
+      PangCapcom_PlayerEnemiesMisc_139: 1886647705
+      PangCapcom_PlayerEnemiesMisc_162: 1395404313
+      PangCapcom_PlayerEnemiesMisc_211: 18821969
+      PangCapcom_PlayerEnemiesMisc_77: -1256018888
+      PangCapcom_PlayerEnemiesMisc_28: -1276444746
+      PangCapcom_PlayerEnemiesMisc_129: -1376735100
+      PangCapcom_PlayerEnemiesMisc_168: 1316503873
+      PangCapcom_PlayerEnemiesMisc_141: 1304715790
+      PangCapcom_PlayerEnemiesMisc_184: 885373673
+      PangCapcom_PlayerEnemiesMisc_115: -387209488
+      PangCapcom_PlayerEnemiesMisc_229: 369178179
+      PangCapcom_PlayerEnemiesMisc_220: 1274222681
+      PangCapcom_PlayerEnemiesMisc_25: -1058994478
+      Shot_Bullet01: 884389830
+      PangCapcom_PlayerEnemiesMisc_196: 358057006
+      PangCapcom_PlayerEnemiesMisc_117: -1995070055
+      PangCapcom_PlayerEnemiesMisc_233: 1765027211
+      PangCapcom_PlayerEnemiesMisc_158: 943048633
+      PangCapcom_PlayerEnemiesMisc_144: 683741145
+      PangCapcom_PlayerEnemiesMisc_197: -1933462480
+      PangCapcom_PlayerEnemiesMisc_131: 197832812
+      PangCapcom_PlayerEnemiesMisc_175: 527508854
+      PangCapcom_PlayerEnemiesMisc_176: -723567809
+      PangCapcom_PlayerEnemiesMisc_146: 1865030661
+      PangCapcom_PlayerEnemiesMisc_37: -730027308
+      PangCapcom_PlayerEnemiesMisc_26: -215885550
+      PangCapcom_PlayerEnemiesMisc_254: -1095412589
+      PangCapcom_PlayerEnemiesMisc_179: -1626308595
+      PangCapcom_PlayerEnemiesMisc_130: -825060201
+      PangCapcom_PlayerEnemiesMisc_255: 1889745145
+      EnemySnail_Up01: 1007469671
+      PangCapcom_PlayerEnemiesMisc_241: -59924007
+      PangCapcom_PlayerEnemiesMisc_216: -405379650
+      PangCapcom_PlayerEnemiesMisc_10: 1213760213
+      PangCapcom_PlayerEnemiesMisc_78: 929642336
+      PangCapcom_PlayerEnemiesMisc_178: 1803933613
+      PangCapcom_PlayerEnemiesMisc_195: 690203613
+      PangCapcom_PlayerEnemiesMisc_235: -827145035
+      PangCapcom_PlayerEnemiesMisc_19: 1367329296
+      PangCapcom_PlayerEnemiesMisc_124: -1659716258
+      PangCapcom_PlayerEnemiesMisc_20: -1236437135
+      PangCapcom_PlayerEnemiesMisc_147: -531820929
+      PangCapcom_PlayerEnemiesMisc_239: -762589244
+      PangCapcom_PlayerEnemiesMisc_12: -1967340567
+      PangCapcom_PlayerEnemiesMisc_257: -797430011
+      PangCapcom_PlayerEnemiesMisc_234: 1457991069
+      PangCapcom_PlayerEnemiesMisc_135: 121026859
+      PangCapcom_PlayerEnemiesMisc_109: 1977855315
+      PangCapcom_PlayerEnemiesMisc_204: 1056841390
+      PangCapcom_PlayerEnemiesMisc_49: -708390960
+      PangCapcom_PlayerEnemiesMisc_41: -1458354934
+      PangCapcom_PlayerEnemiesMisc_238: 72789949
+      PangCapcom_PlayerEnemiesMisc_46: -1629689033
+      PangCapcom_PlayerEnemiesMisc_85: -545802568
+      Player_Shoot_Right: 558340444
+      PangCapcom_PlayerEnemiesMisc_21: 1728632483
+      PangCapcom_PlayerEnemiesMisc_154: -2128063408
+      PangCapcom_PlayerEnemiesMisc_155: -1209203787
+      PangCapcom_PlayerEnemiesMisc_122: 1071681320
+      PangCapcom_PlayerEnemiesMisc_187: 1729860996
+      PangCapcom_PlayerEnemiesMisc_194: 17765297
+      PangCapcom_PlayerEnemiesMisc_232: 1684038421
+      PangCapcom_PlayerEnemiesMisc_149: 233646105
+      PangCapcom_PlayerEnemiesMisc_103: 227590094
+      PangCapcom_PlayerEnemiesMisc_180: -757070026
+      PangCapcom_PlayerEnemiesMisc_34: -1115999707
+      Shot_Bullet02: -1198059625
+      PangCapcom_PlayerEnemiesMisc_249: -78001088
+      PangCapcom_PlayerEnemiesMisc_210: -661831195
+      PangCapcom_PlayerEnemiesMisc_219: 829672271
+      EnemyBird_Fly01: -535479456
+      PangCapcom_PlayerEnemiesMisc_121: -1577452634
+      PangCapcom_PlayerEnemiesMisc_33: -458537944
+      PangCapcom_PlayerEnemiesMisc_164: -97394545
+      PangCapcom_PlayerEnemiesMisc_55: -107774911
+      PangCapcom_PlayerEnemiesMisc_8: -555265657
+      PangCapcom_PlayerEnemiesMisc_74: 185393062
+      PangCapcom_PlayerEnemiesMisc_93: 642160439
+      PangCapcom_PlayerEnemiesMisc_169: -243501533
+      PangCapcom_PlayerEnemiesMisc_80: 1449780690
+      PangCapcom_PlayerEnemiesMisc_160: 2144510310
+      EnemySnail_Walk01: 1671767874
+      PangCapcom_PlayerEnemiesMisc_208: -1462847937
+      PangCapcom_PlayerEnemiesMisc_133: -187391319
+      PangCapcom_PlayerEnemiesMisc_166: -1236982482
+      PangCapcom_PlayerEnemiesMisc_192: -740682491
+      PangCapcom_PlayerEnemiesMisc_42: -355198284
+      PangCapcom_PlayerEnemiesMisc_47: -278438925
+      PangCapcom_PlayerEnemiesMisc_51: -1380891963
+      EnemyOwl_Walk00: -1830397065
+      PangCapcom_PlayerEnemiesMisc_116: 1633207167
+      EnemyOwl_Walk01: -1334935306
+      PangCapcom_PlayerEnemiesMisc_148: 990570197
+      PangCapcom_PlayerEnemiesMisc_32: -1683728554
+      PangCapcom_PlayerEnemiesMisc_98: 1584429493
+      PangCapcom_PlayerEnemiesMisc_181: -1970598944
+      PangCapcom_PlayerEnemiesMisc_84: -1072820118
+      PangCapcom_PlayerEnemiesMisc_113: -1403928476
+      Shot_Bullet04: -524119473
+      PangCapcom_PlayerEnemiesMisc_156: -141810085
+      PangCapcom_PlayerEnemiesMisc_205: -1224187099
+      PangCapcom_PlayerEnemiesMisc_136: 852459005
+      Shot_Hook02: -503286964
+      EnemyShot_Bullet00: 291564876
+      EnemyCrab_Walk00: -992567468
+      PangCapcom_PlayerEnemiesMisc_16: -470392458
+      PangCapcom_PlayerEnemiesMisc_250: 2117881774
+      PangCapcom_PlayerEnemiesMisc_50: 2065741016
+      PangCapcom_PlayerEnemiesMisc_191: -578952446
+      Shot_Spear00: 906018300
+      PangCapcom_PlayerEnemiesMisc_97: -44632706
+      PangCapcom_PlayerEnemiesMisc_223: -984140473
+      PangCapcom_PlayerEnemiesMisc_100: -1140529634
+      PangCapcom_PlayerEnemiesMisc_40: 472473277
+      PowerUp_Banana: -60189201
+      PangCapcom_PlayerEnemiesMisc_188: 1066810959
+      PangCapcom_PlayerEnemiesMisc_119: 2037082846
+      PangCapcom_PlayerEnemiesMisc_128: 600388752
+      PangCapcom_PlayerEnemiesMisc_222: -338972578
+      PangCapcom_PlayerEnemiesMisc_110: -1080165146
+      PangCapcom_PlayerEnemiesMisc_67: -1620757929
+      PangCapcom_PlayerEnemiesMisc_57: 340520863
+      PangCapcom_PlayerEnemiesMisc_159: 1974567588
+      PangCapcom_PlayerEnemiesMisc_43: -1301551944
+      PangCapcom_PlayerEnemiesMisc_111: -1312962412
+      PangCapcom_PlayerEnemiesMisc_236: -1994947256
+      PangCapcom_PlayerEnemiesMisc_17: 473779858
+      PangCapcom_PlayerEnemiesMisc_163: -666665453
+      PangCapcom_PlayerEnemiesMisc_86: -1896761427
+      PangCapcom_PlayerEnemiesMisc_88: 1058704053
+      PangCapcom_PlayerEnemiesMisc_29: 1171230239
+      Player_Walk_Left00: 1529489363
+      PangCapcom_PlayerEnemiesMisc_140: -932222151
+      PangCapcom_PlayerEnemiesMisc_182: 1454925105
+      PangCapcom_PlayerEnemiesMisc_221: -1263975968
+      PangCapcom_PlayerEnemiesMisc_31: -1463072461
+      PangCapcom_PlayerEnemiesMisc_153: 1565129045
+      PangCapcom_PlayerEnemiesMisc_68: 1873442086
+      PangCapcom_PlayerEnemiesMisc_94: 1007396838
+      PangCapcom_PlayerEnemiesMisc_126: 229391465
+      PangCapcom_PlayerEnemiesMisc_193: 912490352
+      PangCapcom_PlayerEnemiesMisc_134: 803377165
+      PangCapcom_PlayerEnemiesMisc_190: 851285506
+      PangCapcom_PlayerEnemiesMisc_218: -1511371325
+      PangCapcom_PlayerEnemiesMisc_95: -1216453725
+      PangCapcom_PlayerEnemiesMisc_256: -1979013601
+      EnemyCrab_Walk01: -1358421739
+      PangCapcom_PlayerEnemiesMisc_132: -194862971
+      PangCapcom_PlayerEnemiesMisc_107: 70286297
+      PangCapcom_PlayerEnemiesMisc_53: 411338531
+      PangCapcom_PlayerEnemiesMisc_253: 421160804
+      PangCapcom_PlayerEnemiesMisc_15: 413936522
+      PangCapcom_PlayerEnemiesMisc_108: -280173486
+      PangCapcom_PlayerEnemiesMisc_123: -365542505
+      EnemySnail_Down01: -1142438663
+      PangCapcom_PlayerEnemiesMisc_209: 178666204
+      PangCapcom_PlayerEnemiesMisc_69: 1160937403
+      PangCapcom_PlayerEnemiesMisc_243: 2066428222
+      PangCapcom_PlayerEnemiesMisc_230: -1315578720
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

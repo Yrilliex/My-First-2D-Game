@@ -1,0 +1,652 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1674759267967782, "dur": 1465445, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674759267968263, "dur": 4525, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674759267972792, "dur": 61706, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674759268034501, "dur": 1119233, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674759269153737, "dur": 264886, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674759269418627, "dur": 14598, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674759269434202, "dur": 46, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1674759268847137, "dur": 280318, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674759268849196, "dur": 79931, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674759269097806, "dur": 8147, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674759269105958, "dur": 21477, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674759269107300, "dur": 19056, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674759269136229, "dur": 2615, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674759269134799, "dur": 4221, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674759269434393, "dur": 460, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1674759269211729, "dur":1473, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269213219, "dur":165, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1674759269213438, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1674759269213471, "dur":1255, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1674759269214794, "dur":1196, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269215991, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269339499, "dur":499, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269339998, "dur":583, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269340582, "dur":36068, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376650, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376674, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376681, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376703, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376708, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376721, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376726, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376738, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376742, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376758, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376763, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376774, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376778, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376793, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376797, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376807, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376811, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376823, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376827, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376837, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376841, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376854, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376858, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376868, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376872, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376884, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376888, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376897, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376901, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376913, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269376938, "dur":23, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269377034, "dur":13728, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1674759269214901, "dur":1143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674759269216044, "dur":3080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674759269219139, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1674759269219472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674759269222552, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1674759269227426, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674759269227486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674759269227491, "dur":59146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674759269286663, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674759269286689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674759269286697, "dur":5805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674759269292525, "dur":43977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674759269336511, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674759269337167, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674759269339408, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1674759269339411, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269215109, "dur":956, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269216065, "dur":3063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269219140, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1674759269219971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269257228, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1674759269259871, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269259901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269259908, "dur":5523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269265454, "dur":949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269266408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269266416, "dur":6052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269272491, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269272641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269272649, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269275431, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269275455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269275462, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269277292, "dur":682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269277979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269277987, "dur":5861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269283869, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269283892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269283899, "dur":4646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269288564, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269288602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269288666, "dur":11986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674759269300670, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1674759269300690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674759269300696, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1674759269302848, "dur":36884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269215705, "dur":418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269216123, "dur":2996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269219140, "dur":751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1674759269219896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269257403, "dur":6024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1674759269263465, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269263558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269263565, "dur":8685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269272276, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269272463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269272473, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269274811, "dur":1118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269275934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269275942, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269279704, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269279727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269279734, "dur":6945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269286700, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269286724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269286731, "dur":6275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674759269293026, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674759269293049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269293054, "dur":6683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674759269299756, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1674759269299786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674759269299792, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1674759269302275, "dur":37519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269216950, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269216951, "dur":2253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269219209, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674759269219789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269223366, "dur":5896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674759269229290, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269230044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269232620, "dur":4228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269236873, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269236906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269236915, "dur":11848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269248804, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269248854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269248862, "dur":4925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269253837, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269253880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269253891, "dur":6216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269260126, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269260179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269260187, "dur":11436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269271652, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269271886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269271893, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269274081, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269274293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269274302, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269275844, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269275870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269275876, "dur":3308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269279204, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269279228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269279235, "dur":7732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269286994, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269287019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269287026, "dur":5909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674759269293044, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1674759269293076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269293082, "dur":3460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1674759269296562, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1674759269296585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269296591, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1674759269298923, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1674759269298944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269298948, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1674759269300980, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1674759269301003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674759269301009, "dur":3223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1674759269304250, "dur":35588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269214687, "dur":1323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269216011, "dur":3111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269219141, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1674759269219380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269222423, "dur":5537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1674759269227985, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1674759269228038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269228532, "dur":26170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1674759269254724, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269254862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269254870, "dur":6636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269261528, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269261551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269261557, "dur":9073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269270850, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269271061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269271070, "dur":4522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269275617, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269275641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269275648, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269277452, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269277614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269277622, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269279136, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269279681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269279689, "dur":4371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269284082, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269284144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269284193, "dur":8239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269292459, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269292631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269292641, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674759269296063, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1674759269296106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269296156, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1674759269298849, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1674759269298872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674759269298877, "dur":16903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1674759269315805, "dur":23698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269215287, "dur":785, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269216072, "dur":3058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269219138, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1674759269219226, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269221943, "dur":5724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1674759269227687, "dur":1193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang.exe" }}
+,{ "pid":12345, "tid":6, "ts":1674759269228884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269228890, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang.exe" }}
+,{ "pid":12345, "tid":6, "ts":1674759269231311, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269231393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269231402, "dur":20058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269251492, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269251527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269251535, "dur":9858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269261475, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269261515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269261522, "dur":22863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269284414, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269284440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269284447, "dur":4105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269288575, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269288599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674759269288606, "dur":15526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674759269304154, "dur":35559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269215527, "dur":565, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269216093, "dur":3049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269219143, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1674759269219274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269221971, "dur":4693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1674759269226691, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674759269226813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269227111, "dur":5999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674759269233137, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269233172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269233180, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269238564, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269238594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269238600, "dur":9088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269247772, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269247810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269247817, "dur":4414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269252253, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269252278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269252286, "dur":6932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269259237, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269259259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269259266, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269263573, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269263816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269263823, "dur":7668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269271513, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269271688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269271696, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269274949, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269275127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269275136, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269276277, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269276403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269276410, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269277896, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269278052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269278059, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269280296, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269280360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269280368, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269282034, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269282057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269282064, "dur":5821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269287905, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269287928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269287935, "dur":4599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674759269292556, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1674759269292707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269292940, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1674759269295059, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674759269295082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269295088, "dur":4096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674759269299217, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1674759269299239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269299245, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1674759269301174, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1674759269301377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674759269301424, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1674759269303311, "dur":36523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269215980, "dur":15, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269215996, "dur":3119, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269219138, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1674759269219159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269222419, "dur":460, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1674759269222888, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1674759269222925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269223205, "dur":3620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1674759269226828, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1674759269226904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269226911, "dur":5435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1674759269232370, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269232405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269232412, "dur":6000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269238443, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269238476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269238484, "dur":9868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269248382, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269248411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269248418, "dur":6153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269254595, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269254623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269254632, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269256673, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269256698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269256705, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269260874, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269260898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269260905, "dur":4966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269265891, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269266216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269266224, "dur":6759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269273001, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269273153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674759269273179, "dur":28308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674759269301519, "dur":37978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269216046, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269216047, "dur":3080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269219140, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1674759269219223, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269221928, "dur":7908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1674759269229862, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269229918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269231187, "dur":5917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269237130, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269237161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269237169, "dur":3246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269240437, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269240961, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269240970, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269242622, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269242661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269242670, "dur":5469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269248163, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269248192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269248200, "dur":4664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269252886, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269252946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269252954, "dur":3798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269256772, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269256797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269256823, "dur":6556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269263402, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269263425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269263475, "dur":33477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674759269296985, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1674759269297178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269297185, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1674759269298464, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1674759269298590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674759269298598, "dur":3757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1674759269302379, "dur":37088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269216164, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269216165, "dur":2968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269219141, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1674759269219314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269222349, "dur":4428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1674759269226809, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1674759269226867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269226875, "dur":4754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1674759269231827, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269231888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269231896, "dur":4527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269236474, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269236554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269236564, "dur":4942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269241528, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269241553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269241560, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269242863, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269242907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269242914, "dur":7797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269250735, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269250776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269250785, "dur":4567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269255389, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269255563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269255572, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269258366, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269258394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269258403, "dur":4965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269263394, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269263473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269263481, "dur":7816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269271317, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269271478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269271486, "dur":6616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269278123, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269278356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269278364, "dur":8170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269286557, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269286581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674759269286591, "dur":16308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674759269302921, "dur":36680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269216323, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269216324, "dur":2812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269219137, "dur":1020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1674759269220162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269222042, "dur":5103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1674759269227169, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269227257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269229632, "dur":16857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269246518, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269246553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269246565, "dur":4617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269251206, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269251242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269251253, "dur":8391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269259670, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269259784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269259791, "dur":11247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269271062, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269271237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269271245, "dur":5483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269276753, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269276945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269276953, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269280404, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269280427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269280437, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269281970, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269281993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269282000, "dur":5740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269287764, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269287788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269287796, "dur":4836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674759269292655, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1674759269292725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674759269292754, "dur":11402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1674759269304196, "dur":35316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269216496, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269216497, "dur":2772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269219269, "dur":2592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1674759269221865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269221925, "dur":6395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1674759269228341, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269228372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269229470, "dur":8954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269238467, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269238495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269238502, "dur":9002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269247531, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269247557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269247567, "dur":7502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269255094, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269255199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269255207, "dur":3938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269259166, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269259189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269259196, "dur":8220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269267450, "dur":1063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269268518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269268528, "dur":4310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269272859, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269273010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269273017, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269275506, "dur":1248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269276759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269276766, "dur":6988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269283792, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269283820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269283828, "dur":4424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269288302, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269288328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269288334, "dur":7196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674759269295558, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1674759269295584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269295591, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1674759269297622, "dur":2731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1674759269300359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674759269300393, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1674759269303878, "dur":35591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269216644, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269216645, "dur":2573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269219223, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1674759269220057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269222432, "dur":6047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1674759269228505, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269228531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269229443, "dur":7325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269236794, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269236834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269236842, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269239738, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269239763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269239771, "dur":11655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269251627, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269251657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269251665, "dur":4842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269256531, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269256558, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269256565, "dur":4722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269261306, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269261328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269261334, "dur":9096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269270462, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269270640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269270650, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269274787, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269274939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269274949, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269276740, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269276763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269276770, "dur":4381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269281173, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269281196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269281203, "dur":6982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269288209, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269288234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1674759269288243, "dur":16438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1674759269304703, "dur":34929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269216834, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269216835, "dur":2423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269219265, "dur":2475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1674759269221745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269221946, "dur":5065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1674759269227046, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269227096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269229635, "dur":5684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269235369, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269235402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269235410, "dur":5867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269241301, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269241337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269241344, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269242657, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269242722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269242730, "dur":5678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269248426, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269248454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269248461, "dur":6726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269255211, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269255721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269255729, "dur":4774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269260523, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269260553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269260559, "dur":5304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269265887, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269265914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269265922, "dur":22237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269288191, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269288216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269288224, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1674759269292969, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":14, "ts":1674759269292991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269292998, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":14, "ts":1674759269294520, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":14, "ts":1674759269294541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269294546, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":14, "ts":1674759269296304, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1674759269296325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269296331, "dur":4045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1674759269300395, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/level2" }}
+,{ "pid":12345, "tid":14, "ts":1674759269300417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1674759269300422, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/level2" }}
+,{ "pid":12345, "tid":14, "ts":1674759269301700, "dur":38372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269214838, "dur":1182, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269216020, "dur":3216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269219237, "dur":2533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1674759269221776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269221972, "dur":5689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1674759269227684, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1674759269227744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269227749, "dur":6680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1674759269234463, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269234499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269234508, "dur":4050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269238576, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269238597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269238604, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269240579, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269240607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269240633, "dur":10543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269251207, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269251254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269251260, "dur":13713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269265010, "dur":1175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269266190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269266197, "dur":22639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269288873, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269288901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269288907, "dur":6930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1674759269295859, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1674759269295893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269295899, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1674759269298427, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/resources.resource" }}
+,{ "pid":12345, "tid":15, "ts":1674759269298460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269298584, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/resources.resource" }}
+,{ "pid":12345, "tid":15, "ts":1674759269300435, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/level1" }}
+,{ "pid":12345, "tid":15, "ts":1674759269300457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1674759269300563, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/level1" }}
+,{ "pid":12345, "tid":15, "ts":1674759269302294, "dur":37664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269217112, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269217113, "dur":2066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269219184, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1674759269219594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269223073, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1674759269228017, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269228044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269229341, "dur":7625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269236998, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269237024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269237031, "dur":12480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269249538, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269249565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269249573, "dur":5769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269255556, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269255608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269255616, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269258718, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269258741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269258749, "dur":34840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1674759269293607, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1674759269293627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269293632, "dur":4995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1674759269298650, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1674759269298673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269298681, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1674759269300441, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Output/MyFirst2DGameProject - Pang_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1674759269300575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1674759269300583, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Output/MyFirst2DGameProject - Pang_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1674759269302343, "dur":37134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674759269393350, "dur":4595, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1674759269434972, "dur": 45805, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674759269434164, "dur": 46748, "ph": "X", "name": "Write chrome-trace events", "args": {} },
